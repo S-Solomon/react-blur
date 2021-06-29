@@ -1,9 +1,11 @@
+import Navbar from './components/Navbar'
 
-
-function App() {
+const App = () => {
   return (
-    <h1>whassup?</h1>
-  );
+    <>
+      <Navbar />
+    </>
+  )
 }
 
-export default App;
+export default App
