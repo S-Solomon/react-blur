@@ -2,6 +2,8 @@ import styled from 'styled-components' ;
 import Tilt from 'react-tilt'
 import HeroImage from '../assets/hero.png' ;
 import BgImage from '../assets/bg.png' ;
+import HeroText from "./HeroText";
+
 
 
 const Hero = () => {
@@ -11,7 +13,7 @@ const Hero = () => {
                 <Wrapper>
                     <InnerWrapper>
                         <Left>
-                            <h1>Hero</h1>
+                            <HeroText />
                         </Left>
                         <TiltWrapper  options={{ max : 25 }}>
                             <img src={HeroImage} alt="" />
